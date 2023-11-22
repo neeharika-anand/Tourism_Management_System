@@ -1,0 +1,31 @@
+.packages-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.package {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.package-image {
+  width: 40%;
+  height: 40%;
+  margin-right: 20px;
+}
+
+/* .package-name {
+  font-size: 1.2rem;
+} */
+
+.package-description {
+  flex: 1;
+}
+
+.read-more {
+  text-align: right;
+  margin-top: 10px;
+}
